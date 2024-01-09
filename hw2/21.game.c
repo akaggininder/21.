@@ -11,7 +11,7 @@ struct Player {
 
 int main() {
     srand((unsigned int)time(NULL));
-
+    printf("0");
     struct Player player = { 0 };
     struct Player dealer = { 0 };
 
